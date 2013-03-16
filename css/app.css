@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}*:not(input):not(textarea):not(select), input[type=image], input[type=file], input[type=submit], input[type=button], input[type=reset] { -webkit-user-select: none; }
+
+body
+{
+    font-family: Arial;
+    -webkit-text-size-adjust: none;
+    font-size: 19px;
+    color:#333333;
+}
+a {
+    cursor: pointer;
+}
+body > div
+{
+    width: 960px;
+    margin: auto;
+}
+.Active { opacity: 1; z-index: 9999; }
+.InActive { opacity: 0; z-index: 0; }
+/*--------------------------------------------*/
+/*  Navigation
+/*--------------------------------------------*/
+
+nav { margin-top: 60px; margin-bottom: 85px; display: block; }
+nav > ul { display: block;height: 30px;}
+nav > ul > li { float: left; margin-right: 10px; font-size: 30px; font-weight: bold; color: #D3D3D3; vertical-align: central; }
+nav > ul > li:not(:last-child):before { content: '/';padding-left: 10px; }
+nav > ul > li > a { background-image: url('../img/nav.png'); background-repeat: no-repeat;font-size: 22px;float: left; display: inline-block;height: 30px;color: transparent; overflow: hidden; }
+/*nav > ul > li:nth-child(1) > a {width: 60px;background-position: -20px 0;}*/
+nav > ul > li:nth-child(1) > a {width: 105px;background-position: -87px 0;}
+nav > ul > li:nth-child(2) > a {width: 75px;background-position: -201px 0;}
+/*nav > ul > li:nth-child(4) > a {width: 86px;background-position: -284px 0;}*/
+/*nav > ul > li:nth-child(1) > a.On, nav > ul > li:nth-child(1) > a:hover {background-position: -20px -30px;}*/
+nav > ul > li:nth-child(1) > a.On, nav > ul > li:nth-child(1) > a:hover {background-position: -87px -30px;}
+nav > ul > li:nth-child(2) > a.On, nav > ul > li:nth-child(2) > a:hover {background-position: -201px -30px;}
+/*nav > ul > li:nth-child(4) > a.On, nav > ul > li:nth-child(4) > a:hover {background-position: -284px -30px;}*/
+
+
+/*--------------------------------------------*/
+/*  Header
+/*--------------------------------------------*/
+
+header { clear: both; height: 1300px; }
+header > div:first-child { float: left; width: 510px; height: 110px; margin-top: 7px; background: url('../img/reza.qorbani.png') no-repeat; color: transparent; }
+header > div:first-child > h1 { font-size: 65px; font-weight: bold; text-transform: uppercase; }
+header > div:first-child > span { font-size: 25px; text-transform: uppercase; }
+header > div:last-child { float: right; }
+header > div:last-child > ul > li > a { background: url('../img/links.png') no-repeat; color: transparent;display: block; overflow: hidden; width: 220px;height: 30px; font-size: 18px; }
+header > div:last-child > ul > li:nth-child(1) > a { background-position: 0px 0px; }
+header > div:last-child > ul > li:nth-child(2) > a { background-position: 0px -30px; }
+header > div:last-child > ul > li:nth-child(3) > a { background-position: 0px -60px; }
+header > div:last-child > ul > li:nth-child(4) > a { background-position: 0px -90px; }
+header > div:last-child > ul > li:nth-child(1) > a:hover { background-position: -220px 0px; }
+header > div:last-child > ul > li:nth-child(2) > a:hover { background-position: -220px -30px; }
+header > div:last-child > ul > li:nth-child(3) > a:hover { background-position: -220px -60px; }
+header > div:last-child > ul > li:nth-child(4) > a:hover { background-position: -220px -90px; }
+
+
+/*--------------------------------------------*/
+/*  Sections
+/*--------------------------------------------*/
+
+article { clear: both; display: block; position: absolute; top: 400px; width: 960px; }
+article > section > div:first-child { position: absolute; width: 65px; }
+article > section { margin-left: 16px; margin-bottom: 70px; border-left: 2px solid #cccccc; }
+article > section > div:first-child > a { background-image: url('../img/sections.png'); display: block; position: absolute; background-color: #ffffff; padding-bottom: 30px; background-repeat: no-repeat; color: transparent; margin-left: -16px;}
+article > section > div:first-child > a:hover { cursor: default; }
+article > section > div:last-child { margin-left: 60px; }
+
+#qualification > div:first-child > a { width: 31px; height: 140px; background-position: -66px 0; }
+#sdlc > div:first-child > a { width: 31px; height: 45px; background-position: -365px 0; }
+#awards > div:first-child > a { width: 31px; height: 79px; background-position: -110px 0; }
+#native > div:first-child > a { width: 58px; height: 150px; background-position: 0 0; margin-left: -40px; }
+#education > div:first-child > a { width: 31px; height: 107px; background-position: -152px 0; }
+#web > div:first-child > a { width: 31px; height: 108px; background-position: -195px 0; }
+#employment > div:first-child > a { width: 31px; height: 136px; background-position: -237px 0; }
+#parttime > div:first-child > a { width: 31px; height: 97px; background-position: -321px 0; }
+#partner > div:first-child > a { width: 31px; height: 78px; background-position: -279px 0; }
+
+/*--------------------------------------------*/
+/*  Home
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+/*  TechSpec
+/*--------------------------------------------*/
+
+#viewSpec {
+    height: 1000px;
+}
+#viewSpec > section { width: 430px; }
+#viewSpec > section:nth-child(odd) > div:last-child { margin-left: 60px; }
+#viewSpec > section:nth-child(odd) { float: left; width: 455px; clear: both;}
+#viewSpec > section:nth-child(even) > div:last-child { margin-left: 40px; }
+#viewSpec > section:nth-child(even) { float: right; }
+
+#viewSpec > section > div > div { text-align: right; height: 25px; background: url('../img/bullets.png') bottom right no-repeat; color: transparent; margin-right: 3px; }
+#viewSpec > section ul li { padding: 10px 0 10px 10px; vertical-align: middle; border-bottom: 2px solid #f0f0f0; background-image: url('../img/bullets.png'); background-position: right 5px; background-repeat: no-repeat; }
+#viewSpec > section ul li:last-child { border-bottom: 0; }
+
+#viewSpec > section ul li span { float: right; display: inline-block; margin-top: -5px; height: 30px; width:180px; background: url('../img/bullets.png') 0px -30px no-repeat; }
+#viewSpec > section ul li span.s6 {  }
+#viewSpec > section ul li span.s5 { width:150px; margin-right: 30px; }
+#viewSpec > section ul li span.s4 { width:120px; margin-right: 60px; }
+#viewSpec > section ul li span.s3 { width:90px; margin-right: 90px; }
+
+#qualification { height: 240px; }
+#qualification > div > p:first-child { margin-top: 10px; }
+#qualification > div > p:not(:last-child) { margin-bottom: 20px; }
+
+#sdlc { height: 240px; }
+
+#awards { height: 365px; top: 290px; }
+#awards p { margin-bottom: 20px; }
+#awards p:first-child { margin-top: 10px; }
+#awards span { display: block; font-size: 1.1em; font-weight: bold; color: #a2a2a2; }
+
+#native { height: 365px; top: 290px; }
+
+#education { height: 290px; top: 700px; }
+#education h3 { font-size: 1.1em; font-weight: bold; }
+#education h4 { font-size: 1.3em; font-weight: bold; color: #a2a2a2; margin: 10px 0 20px 0; }
+#education h6 { font-weight: bold; }
+#education p { margin-bottom: 20px; line-height: 1.1em; }
+#education p > span { display: block; }
+
+#web { height: 290px;top: 700px; }
+
+/*--------------------------------------------*/
+/*  History
+/*--------------------------------------------*/
+
+#viewHistory > section > div > ul { margin-top: 10px; line-height: 1.1em; }
+#viewHistory > section > div > ul > li { margin-bottom: 40px; }
+#viewHistory > section > div > ul > li > h4 { float: left; width: 200px; height: 50px; font-size: 1.2em; font-weight: bold; text-transform: uppercase; color: #999999;}
+#viewHistory > section > div > ul > li > h4 > span { font-size: .8em; }
+#viewHistory > section > div > ul > li > h2 { float: left; width: 310px; height: 50px; font-size: 1.2em; font-weight: bold; }
+#viewHistory > section > div > ul > li > h2 > span { display: block; font-size: 0.8em; }
+#viewHistory > section > div > ul > li > p { font-size: 0.85em; }
+
+/*--------------------------------------------*/
+/*  connect
+/*--------------------------------------------*/
+﻿
