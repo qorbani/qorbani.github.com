@@ -26,7 +26,7 @@ body > div
     margin: auto;
 }
 .Active { opacity: 1; z-index: 9999; }
-.InActive { opacity: 0; z-index: 0; }
+.InActive { opacity: 0; z-index: 0; display: none; }
 /*--------------------------------------------*/
 /*  Navigation
 /*--------------------------------------------*/
@@ -80,9 +80,9 @@ article > section > div:last-child { margin-left: 60px; }
 #qualification > div:first-child > a { width: 31px; height: 140px; background-position: -66px 0; }
 #sdlc > div:first-child > a { width: 31px; height: 45px; background-position: -365px 0; }
 #awards > div:first-child > a { width: 31px; height: 79px; background-position: -110px 0; }
-#native > div:first-child > a { width: 58px; height: 150px; background-position: 0 0; margin-left: -40px; }
+#coding > div:first-child > a { width: 58px; height: 138px; background-position: 0 0; margin-left: -40px; }
 #education > div:first-child > a { width: 31px; height: 107px; background-position: -152px 0; }
-#web > div:first-child > a { width: 31px; height: 108px; background-position: -195px 0; }
+#data > div:first-child > a { width: 31px; height: 134px; background-position: -195px 0; }
 #employment > div:first-child > a { width: 31px; height: 136px; background-position: -237px 0; }
 #parttime > div:first-child > a { width: 31px; height: 97px; background-position: -321px 0; }
 #partner > div:first-child > a { width: 31px; height: 78px; background-position: -279px 0; }
@@ -125,7 +125,7 @@ article > section > div:last-child { margin-left: 60px; }
 #awards p:first-child { margin-top: 10px; }
 #awards span { display: block; font-size: 1.1em; font-weight: bold; color: #a2a2a2; }
 
-#native { height: 365px; top: 290px; }
+#coding { height: 365px; top: 290px; }
 
 #education { height: 290px; top: 700px; }
 #education h3 { font-size: 1.1em; font-weight: bold; }
@@ -134,7 +134,7 @@ article > section > div:last-child { margin-left: 60px; }
 #education p { margin-bottom: 20px; line-height: 1.1em; }
 #education p > span { display: block; }
 
-#web { height: 290px;top: 700px; }
+#data { height: 290px;top: 700px; }
 
 /*--------------------------------------------*/
 /*  History
@@ -151,4 +151,3 @@ article > section > div:last-child { margin-left: 60px; }
 /*--------------------------------------------*/
 /*  connect
 /*--------------------------------------------*/
-﻿
